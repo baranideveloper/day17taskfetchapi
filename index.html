@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction:row!important;
+    gap:0px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+#title{
+    width:auto;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    text-align: center;
+    color: white;
+
+
+}
+.card{
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border: 5px solid grey ;
+    text-align:center;
+    background-color: transparent;
+    color: white;
+    
+
+}
+.card-header{
+    width:auto;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.card-body{
+    
+    background:linear-gradient(135deg, #9eaebb);
+}
+.card-img-top{
+    width: auto;
+    height: 200px;
+    margin: auto;
+    border: 2px solid grey !important;
+}
+</style>
+</head>
+<body>
+    <div id="wrapper">
+         <h1  id="title" class="text-center">Rest Countries Weather API</h1>
+         <div class="container">
+           <div id="card" class="row">
+           </div>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
